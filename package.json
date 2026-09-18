@@ -1,0 +1,24 @@
+{
+  "name": "flow2api-token-updater",
+  "version": "1.0.0",
+  "description": "需要配合 [Flow2api](https://github.com/TheSmallHanCat/flow2api) 服务使用。",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSmallHanCat/Flow2API-Token-Updater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TheSmallHanCat/Flow2API-Token-Updater/issues"
+  },
+  "homepage": "https://github.com/TheSmallHanCat/Flow2API-Token-Updater#readme",
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}
