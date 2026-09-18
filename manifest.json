@@ -12,7 +12,8 @@
     "notifications"
   ],
   "host_permissions": [
-    "https://labs.google/*"
+    "https://labs.google/*",
+    "https://*.google.com/*"
   ],
   "background": {
     "service_worker": "background.js"

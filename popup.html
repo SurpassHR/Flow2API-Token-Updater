@@ -133,6 +133,12 @@
     </div>
 
     <div class="form-group">
+        <label for="projectId">项目 ID（可选）</label>
+        <input type="text" id="projectId" placeholder="例如 7fe5aed1-3fe9-43a2-9c11-46f842e1c830">
+        <div class="hint">填写 Flow 里已有项目的 ID 后，服务端不再自动创建项目（新版 Flow 已移除创建接口）。留空则维持原行为。</div>
+    </div>
+
+    <div class="form-group">
         <label for="refreshInterval">刷新间隔（分钟）</label>
         <input type="number" id="refreshInterval" value="60" min="1" max="1440">
         <div class="hint">建议设置为60分钟（1小时）</div>

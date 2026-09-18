@@ -64,6 +64,13 @@
         .btn-back:hover {
             background: #5a6268;
         }
+        .btn-copy-all {
+            background: #1a73e8;
+            color: white;
+        }
+        .btn-copy-all:hover {
+            background: #1557b0;
+        }
         .logs-container {
             height: 420px;
             overflow-y: auto;
@@ -145,6 +152,29 @@
             font-size: 48px;
             margin-bottom: 12px;
         }
+        .copy-btn {
+            border: 1px solid #dadce0;
+            background: #fff;
+            color: #1a73e8;
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: 6px;
+        }
+        .copy-btn:hover {
+            background: #e8f0fe;
+        }
+        .copy-btn.copied {
+            color: #137333;
+            border-color: #c6e1c6;
+            background: #e6f4ea;
+        }
+        .log-header-right {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
     </style>
 </head>
 <body>
@@ -152,6 +182,7 @@
         <h1>📋 日志查看</h1>
         <div class="actions">
             <button class="btn-refresh" id="refreshBtn">🔄 刷新</button>
+            <button class="btn-copy-all" id="copyAllBtn">📋 复制全部</button>
             <button class="btn-clear" id="clearBtn">🗑️ 清空</button>
             <button class="btn-back" id="backBtn">← 返回</button>
         </div>
